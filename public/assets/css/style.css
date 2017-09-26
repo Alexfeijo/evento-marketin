@@ -1,0 +1,187 @@
+:root {
+	--pink-color: #d84395;
+	--blue-color: #201b59;
+	--black-color: #333;
+	--gray-color: #666;
+}
+
+html {
+	
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: var(--black-color);
+
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+
+	/* Support for IE. */
+	font-feature-settings: 'liga';
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+}
+
+p, a {
+	font-size: 1.6rem;
+	font-weight: 300;
+}
+a {
+	color: var(--pink-color);
+}
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.cover {
+	background-image:url(../img/cover_triangles.png);
+	background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center bottom;
+
+    color: white;
+}
+.cover .row {
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.cover h1 {
+	font-size: 4rem;
+	text-transform: uppercase;
+	line-height: 1.1;
+	margin: 0 0 2.5rem 0;
+}
+.cover p {
+	margin-top: 2rem;
+}
+.cover .title {
+
+}
+.cover .date-location {
+	
+}
+.cover .date-location * {
+	text-transform: uppercase;
+	text-align: right;
+	line-height: 1.2;
+	margin: 0;
+}
+.cover .cover-cta {
+	margin-top: 5rem;
+	text-align: center;
+}
+.cover .cover-cta a {
+
+}
+
+.content-talks .row {
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+.card-talk {
+	min-height: 200px;
+	margin-bottom: 5rem;
+	
+	border-left: 6px solid var(--pink-color);
+	border-radius: 6px;
+	box-shadow: 2px 2px 6px #CCC;
+
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+
+.card-talk .profile {
+	width: 240px;
+	padding: 5px;
+}
+.card-talk .profile img {
+	width: 80px;
+	height: 80px;
+}
+
+.card-talk .content {
+	padding: 15px 0 0 15px;
+}
+
+
+.content-testimony {
+	padding-bottom: 5vh;
+	padding-top: 5vh;
+	background-color: #d03690;
+}
+	
+blockquote {
+  border-left: none;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-family: sans-serif;
+  color: #FFF;
+  font-style: italic;
+  font-weight: 400;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+	color: #ebebeb;
+}
+
+.content-partners {
+	padding: 10vh 0;
+}
+
+.content-ticket {
+	padding: 5vh 0;
+	background-color: var(--pink-color);
+	color: white;
+}
+	.content-ticket h2 {
+		color: white;
+	}
+
+.content-ticket-btn {
+	
+}
+.btn-ticket {
+	margin-top: 2rem;
+}
+
+
+
+footer {
+	margin-top: 0;
+	background-color: var(--blue-color);
+	min-height: 120px;
+	width: 100%;
+}
+footer .container .row {
+	text-align: center;
+}
+footer .container {
+	padding: 20px;
+}
+footer .contact p {
+	font-size: 1.2rem;
+	color: white !important;
+}
