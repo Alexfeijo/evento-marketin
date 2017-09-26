@@ -74,6 +74,10 @@ a:hover {
 .cover .date-location {
 	
 }
+.cover p, .cover h1, .cover h3 {
+	text-shadow: 2px 2px 4px rgba(215,11,88,0.3);
+}
+
 .cover .date-location * {
 	text-transform: uppercase;
 	text-align: right;

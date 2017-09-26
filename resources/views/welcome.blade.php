@@ -3,6 +3,17 @@
 <html>
 
 <head>
+    
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107081638-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+
+      gtag('config', 'UA-107081638-2');
+    </script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
 
@@ -78,7 +89,7 @@
                     <div class="content">
                         <h4>Atração de Parceiros por meio de Inbound Marketing na Politize!</h4>
                         <p class="speaker-name">Michelle Rocha de Moura, Designer Gráfica na Politize!</p>
-                        <p>A Politize! é uma rede de pessoas e organizações comprometidas com a ideia de levar educação política para cidadãos de todo o Brasil. A aplicação estratégica de Inbound Marketing nos canais de comunicação da Politize! é fundamental para a atrair e manter parceiros apoiadores. Vamos falar um pouco sobre como foi estruturar estas práticas e o que alcançamos até então.</p>
+                        <p>A Politize! é uma rede de pessoas e organizações comprometidas com a ideia de levar educação política para cidadãos de todo o Brasil. A aplicação estratégica de Inbound Marketing nos canais de comunicação da Politize! é fundamental para atrair e manter parceiros apoiadores. Vamos falar um pouco sobre como foi estruturar estas práticas e o que alcançamos até então.</p>
                     </div>
                 </div>
                 <div class="col-md-offset-2 col-md-8 card-talk">
