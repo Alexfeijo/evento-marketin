@@ -19,8 +19,8 @@
 
     <title>MKT Improvável: Inbound Marketing onde ninguém imagina</title>
 
-    <link rel="icon" type="image/png" href="img/favicon_16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="img/favicon_32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon_16x16.png')}}" sizes="16x16" />
+    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon_32x32.png')}}" sizes="32x32" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -30,13 +30,13 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="MKT Improvável: Inbound Marketing onde ninguém imagina" />
     <meta property="og:description" content="Como ONGs, universidades e governos estão praticando Inbound Marketing para atrair pessoas e fechar parcerias" />
-    <meta property="og:image" content="img/cover_FB.jpg" />
+    <meta property="og:image" content="{{ asset('assets/img/cover_FB.jpg')}}" />
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="index.html">
     <meta name="twitter:title" content="MKT Improvável: Inbound Marketing onde ninguém imagina">
     <meta name="twitter:description" content="Como ONGs, universidades e governos estão praticando Inbound Marketing para atrair pessoas e fechar parcerias">
-    <meta name="twitter:image" content="img/cover_FB.jpg">
+    <meta name="twitter:image" content="{{ asset('assets/img/cover_FB.jpg')}}">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
