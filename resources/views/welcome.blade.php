@@ -26,17 +26,17 @@
 
     <meta name="description" content="Como ONGs, universidades e governos estão praticando Inbound Marketing para atrair pessoas e fechar parcerias" />
 
-    <meta property="og:url" content="index.html" />
+    <meta property="og:url" content="https://mktimprovavel.herokuapp.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="MKT Improvável: Inbound Marketing onde ninguém imagina" />
     <meta property="og:description" content="Como ONGs, universidades e governos estão praticando Inbound Marketing para atrair pessoas e fechar parcerias" />
-    <meta property="og:image" content="{{ asset('assets/img/cover_FB.jpg')}}" />
+    <meta property="og:image" content="{{ asset('assets/img/cover_FB3.jpg')}}" />
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:url" content="index.html">
+    <meta name="twitter:url" content="https://mktimprovavel.herokuapp.com/">
     <meta name="twitter:title" content="MKT Improvável: Inbound Marketing onde ninguém imagina">
     <meta name="twitter:description" content="Como ONGs, universidades e governos estão praticando Inbound Marketing para atrair pessoas e fechar parcerias">
-    <meta name="twitter:image" content="{{ asset('assets/img/cover_FB.jpg')}}">
+    <meta name="twitter:image" content="{{ asset('assets/img/cover_FB3.jpg')}}">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
@@ -60,7 +60,7 @@
     <header class="jumbotron cover">
         <div class="row">
             <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-6 col-md-6 col-sm-6 col-xs-12 title">
-                <h1>MKT Improvável</h1>
+                <h1>Marketing Improvável</h1>
                 <h3>Inbound Marketing onde ninguém imagina</h3>
                 <p>&nbsp;</p>
                 <p>Como ONGs, universidades e governos estão praticando <b>Inbound Marketing</b> para atrair pessoas e fechar parcerias</p>
