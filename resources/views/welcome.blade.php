@@ -169,13 +169,11 @@
     (function () {
         window.onload = function () {
             new BlipWebSDK.ChatBuilder()
-                .withApiKey('534dc2e2-f819-499b-8402-a9f1729c9434')
+                .withApiKey('c246223d-9948-4b30-86e4-361e5ae89727')
                 .build();
         }
     })();
-</script>
-        
-        
+</script>        
             
 </body>
 
