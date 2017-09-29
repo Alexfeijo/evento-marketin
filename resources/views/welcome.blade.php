@@ -175,8 +175,8 @@ let WebSocketTransport = require('lime-transport-websocket');
 
 // Cria uma instância do cliente, informando o identifier e accessKey do seu chatbot 
 let client = new MessagingHub.ClientBuilder()
-    .withIdentifier({chatgama1})
-    .withAccessKey({U2dJc0t2ZG5maFN6MXBhSUxxQXU=})
+    .withIdentifier({'chatgama1'})
+    .withAccessKey({'U2dJc0t2ZG5maFN6MXBhSUxxQXU='})
     .withTransportFactory(() => new WebSocketTransport())
     .build();
 
