@@ -165,16 +165,16 @@
         </div>
     </footer>
     <script src="https://unpkg.com/blip-chat-web" type="text/javascript"></script>
-    <script>
-        (function () {
-            window.onload = function () {
-                new BlipWebSDK.ChatBuilder()
-                    .withApiKey('75b0a2fa-ee0e-40bf-8966-ee7f29d6530e')
-                    .build();
-            }
-        })();
-    </script>
-            
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipWebSDK.ChatBuilder()
+                .withApiKey('c246223d-9948-4b30-86e4-361e5ae89727')
+                .build();
+        }
+    })();
+</script>
+        
         
             
 </body>
