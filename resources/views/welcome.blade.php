@@ -164,44 +164,15 @@
             </div>
         </div>
     </footer>
-    <script src="https://unpkg.com/lime-js" type="text/javascript"></script>
-    <script src="https://unpkg.com/lime-transport-websocket" type="text/javascript"></script>
-    <script src="https://unpkg.com/messaginghub-client" type="text/javascript"></script>
-
+    <script src="https://unpkg.com/blip-chat-web" type="text/javascript"></script>
     <script>
-        // Importa as dependências
-let MessagingHub = require('messaginghub-client');
-let WebSocketTransport = require('lime-transport-websocket');
-
-// Cria uma instância do cliente, informando o identifier e accessKey do seu chatbot 
-let client = new MessagingHub.ClientBuilder()
-    .withIdentifier({'chatgama1'})
-    .withAccessKey({'U2dJc0t2ZG5maFN6MXBhSUxxQXU='})
-    .withTransportFactory(() => new WebSocketTransport())
-    .build();
-
-// Registra um receiver para mensagens do tipo 'text/plain'
-client.addMessageReceiver(true, function (message) {
-    // TODO: Processe a mensagem recebida
-    console.log(message);
-});
-
-// Registra um receiver para qualquer notificação
-client.addNotificationReceiver(true, function(notification) {
-  // TODO: Processe a notificação recebida
-});
-
-// Conecta com o servidor de forma assíncrona. 
-// A conexão ocorre via websocket, na porta 443.
-client.connect()  // O retorno deste método é uma 'promise'.
-    .then(function (session) {
-        // Conexão bem sucedida. A partir deste momento, é possível enviar e receber envelopes do servidor. */ 
-        console.log('Connectado');
-    })
-    .catch(function (err) {
-        // Falha na conexão
-        console.log(err);
-    });
+        (function () {
+            window.onload = function () {
+                new BlipWebSDK.ChatBuilder()
+                    .withApiKey('bce2f7ef-186d-46ec-8573-927be031163b')
+                    .build();
+            }
+        })();
     </script>
 </body>
 
