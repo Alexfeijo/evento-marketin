@@ -50,7 +50,7 @@
     <header class="cover">
         <div class="row">
             
-                <img class="brand img-responsive" src="{{ asset('assets/img/brand.png')}}" />
+                <img class="brand img-responsive" src="{{ asset('assets/img/logo-blog.png')}}" />
 
                 <h1>Go Good | Pessoas e Resultados</h1>
             
@@ -70,7 +70,7 @@
 
                     <ul>
                         <li>Impulsionar a performance dos seus colaboradores;</li>
-                        <li>Reduzir a falta dos seus colaboradores por motivos de saúde;</li>
+                        <li>Reduzir a ausência dos seus colaboradores por motivos de saúde;</li>
                         <li>Ampliar a visibilidade das ações sociais de sua empresa.</li>
                     </ul>
 
@@ -80,7 +80,7 @@
                     <form method="post">
           
                         <div>
-                            <p class="title">Cadastre-se e assista o nosso webinar</p>
+                            <p class="title">Vamos engajar seus funcionários?</p>
 
                             <div>
                                 <label for="id_first_name">Nome</label>
