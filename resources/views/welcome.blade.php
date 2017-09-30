@@ -77,7 +77,7 @@
                     <p><b>Me pergunte como!</b> Basta preencher o formulário <span class="hidden-xs">ao lado</span><span class="hidden-sm hidden-md hidden-lg">abaixo</span>.</p>
                 </div>
                 <div class="col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-4 form-newsletter">
-                    <form method="post" action="{{ route('')}}">
+                    <form method="post">
           
                         <div>
                             <p class="title">Cadastre-se e assista o nosso webinar</p>
