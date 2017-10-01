@@ -90,6 +90,7 @@ a:hover {
 
 .cover h1 {
 	font-weight: 700;
+	font-size: 1rem;
 	margin-bottom: 20px !important;
 }
 .cover h3 {
@@ -109,7 +110,11 @@ a:hover {
 	background-color: var(--blue-color);
 	color: white;
 }
-
+.form-newsletter .title {
+	font-size: 1.1rem !important;
+	text-align: center !important;
+	line-height: 1.4 !important;
+}
 .form-newsletter label {
 	margin-top: 16px;
 }

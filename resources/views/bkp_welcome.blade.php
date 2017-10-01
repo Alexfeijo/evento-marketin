@@ -5,27 +5,28 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
 
-    <title>Go Good | Pessoas e Resultados</title>
-
-    <link rel="icon" type="image/png" href="{{ assset('assets/img/favicon_16x16.png')}}" sizes="16x16" />
-    <link rel="icon" type="image/png" href="{{ assset('assets/img/favicon_32x32.png')}}" sizes="32x32" />
+    <title>Estudo de Caso: Como a Nike e a Adidas usaram o poder dos aplicativos para se aproximar de seus clientes</title>
+<!--
+    <link rel="icon" type="image/png" href="img/favicon_16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="img/favicon_32x32.png" sizes="32x32" />
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <meta name="description" content="" />
+    <meta name="description" content="Leia o estudo de caso que a Mobile Growth preparou sobre como a Nike e a Adidas vêm encantando e se relacionando com seus cliente através de aplicativos" />
 
-    <meta property="og:url" content="http://resultadosepessoas.herokuapp.com" />
-    <meta property="og:type" content="blog" />
-    <meta property="og:title" content="Go Good | Pessoas e Resultados" />
-    <meta property="og:description" content="" />
-    <meta property="og:image" content="{{ assset('assets/img/logo-blog.png')}}" />
+    <meta property="og:url" content="http://mobilegrowth.com.br{% url 'lp_caseadidasnike" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Estudo de Caso: Como a Nike e a Adidas usaram o poder dos aplicativos para se aproximar de seus clientes" />
+    <meta property="og:description" content="Leia o estudo de caso que a Mobile Growth preparou sobre como a Nike e a Adidas vêm encantando e se relacionando com seus cliente através de aplicativos" />
+    <meta property="og:image" content="http://mobilegrowth.com.brimg/p05-nike-snkrs01.jpg" />
     
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:url" content="">
-    <meta name="twitter:title" content="Go Good | Pessoas e Resultados">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:image" content="{{ assset('assets/img/logo-blog.png')}}">
+    <meta name="twitter:url" content="http://mobilegrowth.com.br{% url 'lp_caseadidasnike">
+    <meta name="twitter:title" content="Estudo de Caso: Como a Nike e a Adidas usaram o poder dos aplicativos para se aproximar de seus clientes">
+    <meta name="twitter:description" content="Leia o estudo de caso que a Mobile Growth preparou sobre como a Nike e a Adidas vêm encantando e se relacionando com seus cliente através de aplicativos">
+    <meta name="twitter:image" content="http://mobilegrowth.com.brimg/p05-nike-snkrs01.jpg">
+-->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
@@ -39,16 +40,20 @@
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
 
-    <script src="{{ assset('assets/js/main.js')}}"></script>
+    <script src="{{ asset('assets/js/main.js')}}"></script>
 
-    <link rel="stylesheet" type="text/css" href="{{ assset('assets/css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css')}}">
 
 </head>
 
 <body class="landing-page">
     <header class="cover">
         <div class="row">
-            <img class="brand img-responsive" src="{{ assset('assets/img/logo-blog.png')}}" /><br />
+            
+                <img class="brand img-responsive" src="{{ asset('assets/img/logo-blog.png')}}" />
+
+                <h1>Go Good | Pessoas e Resultados</h1>
+            
         </div>
     </header>
     <main>
@@ -122,13 +127,23 @@
             </div>
             <div class="row">
                 <section class="col-lg-offset-2 col-lg-8 col-md-8 col-md-offset-2 col-sm-offset-2 col-sm-8">
-                    <img class="img-responsive center-block" src="{{ assset('assets/img/companies.png')}}" >
+                    <img class="img-responsive center-block" src="img/companies.png" >
                 </section>
                 <section class="col-lg-offset-2 col-lg-8 col-md-8 col-md-offset-2 col-sm-offset-2 col-sm-8">
                     
                 </section>
             </div>
         </div>
+        <!--
+        <div class="container-fluid section03">
+            
+            <div class="row">
+                <section class="col-lg-8 col-md-8 col-sm-8">
+                    
+                </section>
+            </div>
+        </div>
+    -->
     </main>
     <footer >
         <div class="container">
@@ -138,6 +153,16 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/blip-chat-web" type="text/javascript"></script>
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipWebSDK.ChatBuilder()
+                .withApiKey('c246223d-9948-4b30-86e4-361e5ae89727')
+                .build();
+        }
+    })();
+</script>
 </body>
 
 </html>
