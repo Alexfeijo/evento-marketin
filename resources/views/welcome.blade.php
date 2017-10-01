@@ -7,8 +7,8 @@
 
     <title>Go Good | Pessoas e Resultados</title>
 
-    <link rel="icon" type="image/png" href="{{ assset('assets/img/favicon_16x16.png')}}" sizes="16x16" />
-    <link rel="icon" type="image/png" href="{{ assset('assets/img/favicon_32x32.png')}}" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon_16x16.png')}}" sizes="16x16" />
+    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon_32x32.png')}}" sizes="32x32" />
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -19,13 +19,13 @@
     <meta property="og:type" content="blog" />
     <meta property="og:title" content="Go Good | Pessoas e Resultados" />
     <meta property="og:description" content="" />
-    <meta property="og:image" content="{{ assset('assets/img/logo-blog.png')}}" />
+    <meta property="og:image" content="{{ asset('assets/img/logo-blog.png')}}" />
     
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="">
     <meta name="twitter:title" content="Go Good | Pessoas e Resultados">
     <meta name="twitter:description" content="">
-    <meta name="twitter:image" content="{{ assset('assets/img/logo-blog.png')}}">
+    <meta name="twitter:image" content="{{ asset('assets/img/logo-blog.png')}}">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
@@ -39,16 +39,16 @@
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
 
-    <script src="{{ assset('assets/js/main.js')}}"></script>
+    <script src="{{ asset('assets/js/main.js')}}"></script>
 
-    <link rel="stylesheet" type="text/css" href="{{ assset('assets/css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css')}}">
 
 </head>
 
 <body class="landing-page">
     <header class="cover">
         <div class="row">
-            <img class="brand img-responsive" src="{{ assset('assets/img/logo-blog.png')}}" /><br />
+            <img class="brand img-responsive" src="{{ asset('assets/img/logo-blog.png')}}" /><br />
         </div>
     </header>
     <main>
@@ -122,7 +122,7 @@
             </div>
             <div class="row">
                 <section class="col-lg-offset-2 col-lg-8 col-md-8 col-md-offset-2 col-sm-offset-2 col-sm-8">
-                    <img class="img-responsive center-block" src="{{ assset('assets/img/companies.png')}}" >
+                    <img class="img-responsive center-block" src="{{ asset('assets/img/companies.png')}}" >
                 </section>
                 <section class="col-lg-offset-2 col-lg-8 col-md-8 col-md-offset-2 col-sm-offset-2 col-sm-8">
                     
