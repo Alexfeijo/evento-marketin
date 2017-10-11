@@ -139,15 +139,15 @@
         </div>
     </footer>
     <script src="https://unpkg.com/blip-chat-web" type="text/javascript"></script>
-    <script>
-        (function () {
-            window.onload = function () {
-                new BlipWebSDK.ChatBuilder()
-                    .withApiKey('c246223d-9948-4b30-86e4-361e5ae89727')
-                    .build();
-            }
-        })();
-    </script>
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipWebSDK.ChatBuilder()
+                .withApiKey('961807c4-3994-4515-a599-09bcd8861162')
+                .build();
+        }
+    })();
+</script>
 </body>
 
 </html>
